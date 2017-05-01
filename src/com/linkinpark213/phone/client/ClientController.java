@@ -65,12 +65,13 @@ public class ClientController {
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("cache\\" + socket.getLocalPort() + "\\record.wav"));
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
             try {
-                AudioSystem.write(audioInputStream, AudioFileFormat.Type.WAVE, byteArrayOutputStream);
+                AudioSystem.write(audioInputStream, AudioFileFormat.Type.AU, byteArrayOutputStream);
             } catch (IOException e) {
                 e.printStackTrace();
             }
             byte[] audioByteArray = byteArrayOutputStream.toByteArray();
             byteArrayOutputStream.close();
+            audioInputStream.close();
 
             ObjectOutputStream outputStream = new ObjectOutputStream(socket.getOutputStream());
             outputStream.writeObject(new Message("", audioByteArray));

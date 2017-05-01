@@ -25,8 +25,7 @@ public class ClientRecorder {
     }
 
     public AudioFormat getDefaultAudioFormat() {
-        AudioFormat.Encoding encoding = AudioFormat.Encoding.
-                PCM_SIGNED;
+        AudioFormat.Encoding encoding = AudioFormat.Encoding.PCM_SIGNED;
         float rate = 8000f;
         int sampleSize = 16;
         String signedString = "signed";
@@ -42,5 +41,6 @@ public class ClientRecorder {
 
     public void stopRecording() {
         targetDataLine.stop();
+        targetDataLine.close();
     }
 }

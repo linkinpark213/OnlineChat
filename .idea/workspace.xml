@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientPlayThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/ClientSocketThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/sample.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/server/ServerSocketThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/SpeakerThread.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/ClientController.class" afterPath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/ClientController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/Main$1.class" afterPath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/Main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/Main$2.class" afterPath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/Main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/Main.class" afterPath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/client/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/common/Message.class" afterPath="$PROJECT_DIR$/out/production/OnlineChat_TCPSocket_JavaFX/com/linkinpark213/phone/common/Message.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientSocketThread.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientSocketThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/Main.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/common/Message.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/common/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/server/ServerSocketThread.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/server/ServerSocketThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java" afterPath="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +63,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.252149">
+    <splitter split-orientation="horizontal" split-proportion="0.2913085">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
@@ -124,11 +110,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+                <state relative-caret-position="670">
+                  <caret line="67" column="88" lean-forward="false" selection-start-line="67" selection-start-column="88" selection-end-line="67" selection-end-column="88" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#signOut#0;class#ClientController#0" expanded="false" />
@@ -142,7 +128,7 @@
           <file leaf-file-name="ClientSocketThread.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientSocketThread.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="407">
+                <state relative-caret-position="650">
                   <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -151,13 +137,36 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ClientPlayThread.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ClientPlayThread.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientPlayThread.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="791">
-                  <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                <state relative-caret-position="720">
+                  <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClientRecordThread.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="554">
+                  <caret line="40" column="89" lean-forward="false" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="89" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClientRecorder.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="599">
+                  <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#1232#1233#0" expanded="true" />
+                    <element signature="e#1316#1317#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -180,10 +189,15 @@
       <find>socket.getInputStream()</find>
       <find>textArea</find>
       <find>rec</find>
+      <find>AudioFileFormat.Type.AU</find>
+      <find>AudioFileFormat.Type.</find>
     </findStrings>
     <replaceStrings>
       <replace>chatWindow</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ooo\IdeaProjects\GUI</dir>
+    </dirStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -218,11 +232,11 @@
         <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/Main.java" />
         <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/common/Message.java" />
         <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/server/ServerSocketThread.java" />
-        <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java" />
-        <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java" />
-        <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java" />
         <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientSocketThread.java" />
         <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientPlayThread.java" />
+        <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java" />
+        <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java" />
+        <option value="$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java" />
       </list>
     </option>
   </component>
@@ -872,7 +886,7 @@
       <workItem from="1493519567281" duration="61000" />
       <workItem from="1493519785718" duration="6471000" />
       <workItem from="1493535374303" duration="13488000" />
-      <workItem from="1493605692577" duration="12554000" />
+      <workItem from="1493605692577" duration="15125000" />
     </task>
     <task id="LOCAL-00001" summary="Previous work">
       <created>1493552115332</created>
@@ -895,14 +909,22 @@
       <option name="project" value="LOCAL" />
       <updated>1493605928479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The first sound message succeeds to arrive and then boom">
+      <created>1493622606336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1493622606336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48766000" />
+    <option name="totallyTimeSpent" value="51337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1462" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -914,13 +936,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2056962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2056962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15616046" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15616046" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -937,7 +960,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,11 +972,12 @@
     <MESSAGE value="Previous work" />
     <MESSAGE value="Oh have I done something?" />
     <MESSAGE value="Seems that I have" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seems that I have" />
+    <MESSAGE value="The first sound message succeeds to arrive and then boom" />
+    <option name="LAST_COMMIT_MESSAGE" value="The first sound message succeeds to arrive and then boom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -963,19 +986,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#signOut#0;class#ClientController#0" expanded="false" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1371,14 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -1401,18 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="method#getDefaultAudioFormat#0;class#ClientRecorder#0" expanded="false" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -1425,22 +1415,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/jre/lib/rt.jar!/com/sun/media/sound/WaveFileWriter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="-1176">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientPlayThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#signOut#0;class#ClientController#0" expanded="false" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientSocketThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="650">
           <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1448,12 +1454,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientPlayThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientRecordThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="554">
+          <caret line="40" column="89" lean-forward="false" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/linkinpark213/phone/client/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="67" column="88" lean-forward="false" selection-start-line="67" selection-start-column="88" selection-end-line="67" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#signOut#0;class#ClientController#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -38,7 +38,7 @@ public class ClientRecordThread extends Thread {
             targetDataLine.start();
             File file = new File(dirName);
             file.mkdirs();
-            AudioSystem.write(new AudioInputStream(targetDataLine), AudioFileFormat.Type.WAVE, new File(dirName + "\\record.wav"));
+            AudioSystem.write(new AudioInputStream(targetDataLine), AudioFileFormat.Type.AU, new File(dirName + "\\record.wav"));
         } catch (LineUnavailableException e) {
             e.printStackTrace();
         } catch (IOException e) {
