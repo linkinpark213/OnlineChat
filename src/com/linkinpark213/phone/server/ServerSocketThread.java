@@ -34,13 +34,25 @@ public class ServerSocketThread extends Thread {
     public void broadcast(int type, String content) {
         for (Socket socket : clientList) {
             if (socket != this.socket) {
-                try {
-                    ObjectOutputStream outputStream = new ObjectOutputStream(socket.getOutputStream());
-                    outputStream.writeObject(new Message(type, content));
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                sendMessage(socket, new Message(type, content));
             }
+        }
+    }
+
+    public void broadcast(String content, byte[] byteArray) {
+        for (Socket socket : clientList) {
+            if (socket != this.socket) {
+                sendMessage(socket, new Message(content, byteArray));
+            }
+        }
+    }
+
+    public void sendMessage(Socket socket, Message message) {
+        try {
+            ObjectOutputStream outputStream = new ObjectOutputStream(socket.getOutputStream());
+            outputStream.writeObject(message);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -49,6 +61,7 @@ public class ServerSocketThread extends Thread {
             switch (message.getType()) {
                 case Message.SIGN_OUT:
                     System.out.println("Chatter " + socket.getRemoteSocketAddress() + " Left.");
+                    outputStream = new ObjectOutputStream(socket.getOutputStream());
                     outputStream.writeObject(new Message(Message.SIGN_OUT_GRANT, ""));
                     broadcast(Message.BROADCAST, "Chatter " + socket.getRemoteSocketAddress() + " Left.");
                     setKeepAlive(false);
@@ -57,8 +70,14 @@ public class ServerSocketThread extends Thread {
                     System.out.println("Chatter " + socket.getRemoteSocketAddress() + " Sent: " + message.getContent());
                     broadcast(Message.BROADCAST, "> " + socket.getRemoteSocketAddress() + ": " + message.getContent());
                     break;
+                case Message.SPEAK:
+                    System.out.println("Chatter " + socket.getRemoteSocketAddress() + " Sent a sound message.");
+                    broadcast("Chatter " + socket.getRemoteSocketAddress() + " Sent a Sound Message",
+                            message.getAudioByteArray());
+                    break;
                 default:
                     System.out.println("Invalid Request From " + socket.getRemoteSocketAddress());
+                    outputStream = new ObjectOutputStream(socket.getOutputStream());
                     outputStream.writeObject(new Message(Message.INVALID_MESSAGE, ""));
             }
         } catch (IOException e) {
@@ -81,7 +100,7 @@ public class ServerSocketThread extends Thread {
             System.out.println("Connection Closing...");
             clientList.remove(socket);
             socket.close();
-            System.out.println("Connection Closed.");
+            System.out.println(socket.getRemoteSocketAddress() + " Connection Closed.");
         } catch (SocketException e) {
             System.out.println("Connection Lost.");
             clientList.remove(socket);

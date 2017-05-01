@@ -1,5 +1,11 @@
 package com.linkinpark213.phone.common;
 
+import javax.sound.sampled.AudioFileFormat;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.Serializable;
 
 /**
@@ -16,6 +22,7 @@ public class Message implements Serializable {
     public final static int SPEAK = 7;
     private int type;
     private String content;
+    private byte[] audioByteArray;
 
     public String getContent() {
         return content;
@@ -33,8 +40,23 @@ public class Message implements Serializable {
         this.type = type;
     }
 
+    public byte[] getAudioByteArray() {
+        return audioByteArray;
+    }
+
+    public void setAudioByteArray(byte[] audioByteArray) {
+        this.audioByteArray = audioByteArray;
+    }
+
     public Message(int type, String content) {
         this.type = type;
         this.content = content;
+        this.audioByteArray = null;
+    }
+
+    public Message(String content, byte[] bytes) {
+        this.type = SPEAK;
+        this.content = content;
+        this.audioByteArray = bytes;
     }
 }

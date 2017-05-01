@@ -3,10 +3,7 @@ package com.linkinpark213.phone.client;
 import com.linkinpark213.phone.common.Message;
 import javafx.scene.control.TextArea;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.StreamCorruptedException;
+import java.io.*;
 import java.net.Socket;
 
 /**
@@ -45,6 +42,25 @@ public class ClientSocketThread extends Thread {
                 System.out.println(message.getContent());
                 chatWindow.appendText(message.getContent());
                 chatWindow.appendText("\n");
+                break;
+            case Message.SPEAK:
+                System.out.println(message.getContent());
+                chatWindow.appendText(message.getContent());
+                chatWindow.appendText("\n");
+                try {
+                    File dir = new File("cache\\" + socket.getLocalPort());
+                    dir.mkdirs();
+                    String fileName = "\\download" + (int) (Math.random() * 65536) + ".wav";
+                    FileOutputStream fileOutputStream = new FileOutputStream(new File("cache\\" + socket.getLocalPort() + fileName));
+                    fileOutputStream.write(message.getAudioByteArray());
+                    fileOutputStream.close();
+                    ClientPlayThread clientPlayThread = new ClientPlayThread("cache\\" + socket.getLocalPort() + fileName);
+                    clientPlayThread.start();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 break;
             default:
                 System.out.println("Invalid Message From Server.");
